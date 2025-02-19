@@ -1,0 +1,67 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(51, 51, 250), rgb(140, 140, 248), rgb(0, 0, 245));
+    background-repeat: repeat;
+}
+header{
+    background-image: url(img/50560a82a0d9ddc8a93def52f63a9c8f.jpg);
+    padding: 100px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+header h1 {
+    font-size: 60px;
+    color: purple;
+    text-align: center ;
+    margin-left: 90px;
+}
+header p{
+    font-size: 30px;
+    text-align: end;
+    
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: flexbox;
+}
+
+main h1{
+    color: black;
+}
+
+main h2{
+    text-align: center;
+}
+
+main p{
+    font-family: sans-serif, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#paragrafo{
+    font-size: 45px;
+    color: yellow;
+}
+
+
+footer{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 0;
+}
+
+footer h3{
+    color: white;
+}
+
+footer a{
+    color: black;
+}
